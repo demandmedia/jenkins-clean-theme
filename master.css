@@ -2,6 +2,11 @@ body {
     background: #fff!important;
 }
 
+#header .logo {
+    background: url(img/cl-logo.png) no-repeat;
+    background-size: cover;
+}
+
 #jenkins-head-icon {
   display: none !important;
 }
@@ -190,6 +195,8 @@ tr {
 
 #projectstatus,.bigtable {
     border: 1px solid rgba(0,0,0,.1)!important;
+    border-top: none!important;
+    margin: 0!important;
 }
 
 .bigtable tr {
@@ -224,7 +231,7 @@ td.inactive {
 }
 
 .dashboard {
-    margin-top: 10px!important;
+    margin-top: 0px!important;
 }
 
 .build-monitor.dashboard {
