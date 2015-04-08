@@ -534,6 +534,9 @@ a.build-health-link {
     padding-left: 24px;
     margin-left: 12px;
     vertical-align: middle!important;
+    display: block;
+    height: 24px;
+    width: 24px;
 }
 
 a.build-health-link img,td img[src*=health] {
