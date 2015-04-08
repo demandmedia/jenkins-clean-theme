@@ -478,6 +478,16 @@ a[href*=console].task-icon-link {
     background: url(img/console.png) no-repeat!important;
     background-size: contain!important;
 }
+a[href*=console] img {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    padding-left: 24px;
+    width: 24px;
+    height: 24px;
+    background: url(img/console.png) no-repeat!important;
+    background-size: contain!important;
+}
 
 a[href*=Delete].task-icon-link,a[href*=delete].task-icon-link {
     background: url(img/x.png) no-repeat!important;
@@ -720,7 +730,7 @@ img[src$="aborted.png"],  img[src$="aborted.gif"],  img[src$="aborted_anime.gif"
 }
 
 img[src*="blue.png"], img[src*="blue_anime.gif"] {
-    background: #326ca6 !important;
+    background: rgb(45,166,110) !important;
 }
 
 img[src*="yellow.png"], img[src*="yellow_anime.gif"] {
