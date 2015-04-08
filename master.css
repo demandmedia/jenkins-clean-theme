@@ -477,7 +477,7 @@ a[href*=modules].task-icon-link {
 }
 
 a[href*="build?"].task-icon-link {
-    background: url(img/build.png) no-repeat!important;
+    background: url(img/redeploy.png) no-repeat!important;
     background-size: contain!important;
 }
 
@@ -554,14 +554,21 @@ td.healthReport[data="100"] a.build-health-link {
 }
 
 #projectstatus td a[href*="build?"] {
-    background: url(img/build.png) no-repeat!important;
+    background: none;
     background-size: contain!important;
     padding-left: 24px;
     margin-left: 12px;
 }
 
 #projectstatus td a[href*="build?"] img {
-    display: none!important;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    padding-left: 24px;
+    width: 24px;
+    height: 24px;
+    background: url(img/redeploy.png) no-repeat!important;
+    background-size: contain!important;
 }
 
 td:first-child a[href=javadoc] {
