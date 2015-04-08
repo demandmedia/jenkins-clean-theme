@@ -5,6 +5,11 @@ body {
 #header .logo {
     background: url(img/cl-logo.png) no-repeat;
     background-size: cover;
+    background-size: 90%;
+    background-position-y: center;
+}
+#header .logo a {
+    width: 196px;
 }
 
 #jenkins-head-icon {
