@@ -2,8 +2,11 @@ jenkins-clean-theme
 =================
 
 This is a simple theme for jenkins using the "simple-theme-plugin"
+As seen on [Connected Lab Jenkins](http://192.168.0.214:8080/)
 
-A demo can be seen here: http://jqa.me:8080/
+Deployment
+=================
+When changes are made, push to the `master` branch and the files will be deployed to HostGator.
 
 Dependencies
 =================
