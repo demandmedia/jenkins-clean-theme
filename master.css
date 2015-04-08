@@ -13,6 +13,10 @@ body {
     width: 196px;
 }
 
+.tabBar .tab a {
+    padding: 15px 10px!important;
+}
+
 #jenkins-head-icon {
   display: none !important;
 }
@@ -183,7 +187,7 @@ tr {
 }
 
 #projectstatus td,.bigtable td {
-    padding: 10px!important;
+    padding: 5px!important;
 }
 
 #projectstatus tr:nth-child(even)>td,.bigtable tr:nth-child(even)>td {
