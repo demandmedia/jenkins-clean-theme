@@ -2,6 +2,10 @@ body {
     background: #fff!important;
 }
 
+#header {
+    background-color: #222!important;
+}
+
 #header .logo {
     background: url(img/cl-logo.png) no-repeat;
     background-size: cover;
