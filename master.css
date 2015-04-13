@@ -48,6 +48,10 @@ body {
     width: 300px;
 }
 
+#side-panel-content, #main-panel-content {
+  margin: 50px;
+}
+
 #breadcrumbs {
     background: rgb(83,194,195);
     border-top: 1px solid #000;
