@@ -292,7 +292,7 @@ td.inactive:hover {
 }
 
 table {
-    margin: 0!important;
+    margin: 1!important;
     padding: 0!important;
     border-spacing: 0!important;
     border: none!important;
