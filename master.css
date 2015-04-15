@@ -281,6 +281,7 @@ td.inactive:hover {
     padding-right: 0!important;
     height: 100%!important;
     position: absolute!important;
+    display: table;
 }
 
 #main-panel {
