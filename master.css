@@ -503,7 +503,7 @@ a[href*=console].task-icon-link {
     background: url(img/console.png) no-repeat!important;
     background-size: contain!important;
 }
-a[href*=console] img {
+a[href*=console]:not(.build-status-link) img {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: block;
