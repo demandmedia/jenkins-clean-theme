@@ -936,7 +936,7 @@ td.progress-bar-left {
 
 /* Override some build monitor styles */
 .build-monitor {
-    background: #ecf0f1 !important;
+    background: #fff !important;
 }
 
 .build-monitor li {
@@ -958,8 +958,12 @@ td.progress-bar-left {
     display: none !important;
 }
 
-.build-monitor h1 a {
-    display: none !important;
+.build-monitor header {
+    height: 200px
+}
+
+.build-monitor header h1 {
+    content: url('img/cl-logo-full.png') no-repeat !important;
 }
 
 .build-monitor ul#job-views .unknown > .progress {
