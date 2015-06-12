@@ -942,6 +942,7 @@ td.progress-bar-left {
 .build-monitor li {
     border-radius: 0 !important;
     margin: 3px !important;
+    box-shadow: none !important;
 }
 
 .build-monitor .unknown    { background-color:#95a5a6; }
@@ -951,4 +952,8 @@ td.progress-bar-left {
 
 .build-monitor footer {
     display: none;
+}
+
+.build-monitor header {
+    display: none
 }
