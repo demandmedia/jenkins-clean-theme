@@ -945,10 +945,10 @@ td.progress-bar-left {
     box-shadow: none !important;
 }
 
-.build-monitor .unknown    { background-color:#95a5a6; }
-.build-monitor .successful { background-color:#27ae60; }
-.build-monitor .unstable   { background-color:#f1c40f; }
-.build-monitor .failing    { background-color:#e74c3c; }
+.build-monitor .unknown    { background-color:#BDC3C7; }
+.build-monitor .successful { background-color:#03A678; }
+.build-monitor .unstable   { background-color:#F5D76E; }
+.build-monitor .failing    { background-color:#D64541; }
 
 .build-monitor footer {
     display: none;
@@ -962,6 +962,30 @@ td.progress-bar-left {
     display: none !important;
 }
 
-.build-monitor h1 a:after {
-    content: 'Connected Labs - Build Monitor';
+.build-monitor ul#job-views .unknown > .progress {
+    -webkit-animation: none;
+    -moz-animation: none;
+	animation: none;
+    background-color: #ABB7B7;
+}
+
+.build-monitor ul#job-views .successful > .progress {
+    -webkit-animation: none;
+    -moz-animation: none;
+    animation: none;
+    background-color: #019875;
+}
+
+.build-monitor ul#job-views .unstable > .progress {
+    -webkit-animation: none;
+    -moz-animation: none;
+	animation: none;
+    background-color: #F4D03F;
+}
+
+.build-monitor ul#job-views .failing > .progress {
+    -webkit-animation: none;
+    -moz-animation: none;
+    animation: none;
+    background-color: #C0392B;
 }
