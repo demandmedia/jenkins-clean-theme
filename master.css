@@ -937,6 +937,7 @@ td.progress-bar-left {
 /* Override some build monitor styles */
 .build-monitor {
     background: #fff !important;
+    padding: 0 50px 50px 50px !important;
 }
 
 .build-monitor li {
