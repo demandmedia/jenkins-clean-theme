@@ -969,6 +969,10 @@ td.progress-bar-left {
     background-color: #ABB7B7;
 }
 
+.build-monitor ul#job-views .successful > .progress {
+    background-color: #019875;
+}
+
 @-webkit-keyframes forSuccessful { 0% {background-color: #019875;} 100% {background-color: #03A678;} }
 @-moz-keyframes forSuccessful { 0% {background-color: #019875;} 100% {background-color: #03A678;} }
 @-keyframes forSuccessful { 0% {background-color: #019875;} 100% {background-color: #03A678;} }
