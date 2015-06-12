@@ -257,7 +257,7 @@ td.inactive {
 }
 
 .build-monitor a {
-    color: #ddd!important;
+    color: #ecf0f1!important;
 }
 
 td.inactive a {
@@ -281,7 +281,6 @@ td.inactive:hover {
     padding-right: 0!important;
     height: 100%!important;
     position: absolute!important;
-    display: table;
 }
 
 #main-panel {
@@ -932,4 +931,15 @@ td.progress-bar-done {
 /* Border styling for empty progress bar of build process table on left side */
 td.progress-bar-left {
     border: 1px solid #BBBBBB;
+}
+
+
+/* Override some build monitor styles */
+.build-monitor {
+    background: #2c3e50 !important;
+}
+
+.build-monitor li {
+    border-radius: 0 !important;
+    margin: 3px !important;
 }
