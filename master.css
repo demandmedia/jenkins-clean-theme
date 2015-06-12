@@ -946,7 +946,7 @@ td.progress-bar-left {
 }
 
 .build-monitor .unknown    { background-color:#BDC3C7; }
-.build-monitor .successful { background-color:#03A678; }
+.build-monitor .successful { background-color:#00B16A; }
 .build-monitor .unstable   { background-color:#F5D76E; }
 .build-monitor .failing    { background-color:#D64541; }
 
@@ -969,12 +969,9 @@ td.progress-bar-left {
     background-color: #ABB7B7;
 }
 
-.build-monitor ul#job-views .successful > .progress {
-    -webkit-animation: none;
-    -moz-animation: none;
-    animation: none;
-    background-color: #019875;
-}
+@-webkit-keyframes forSuccessful { 0% {background-color: #019875;} 100% {background-color: #03A678;} }
+@-moz-keyframes forSuccessful { 0% {background-color: #019875;} 100% {background-color: #03A678;} }
+@-keyframes forSuccessful { 0% {background-color: #019875;} 100% {background-color: #03A678;} }
 
 .build-monitor ul#job-views .unstable > .progress {
     -webkit-animation: none;
