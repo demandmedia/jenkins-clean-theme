@@ -941,7 +941,7 @@ td.progress-bar-left {
 
 .build-monitor li {
     border-radius: 0 !important;
-    margin: 3px !important;
+    margin: 4px !important;
     box-shadow: none !important;
 }
 
@@ -954,6 +954,14 @@ td.progress-bar-left {
     display: none;
 }
 
-.build-monitor header {
-    display: none
+.build-monitor header a.home-link {
+    display: none !important;
+}
+
+.build-monitor h1 a {
+    display: none !important;
+}
+
+.build-monitor h1 a:after {
+    content: 'Connected Labs - Build Monitor';
 }
