@@ -936,10 +936,19 @@ td.progress-bar-left {
 
 /* Override some build monitor styles */
 .build-monitor {
-    background: #2c3e50 !important;
+    background: #ecf0f1 !important;
 }
 
 .build-monitor li {
     border-radius: 0 !important;
     margin: 3px !important;
+}
+
+.build-monitor .unknown    { background-color:#95a5a6; }
+.build-monitor .successful { background-color:#27ae60; }
+.build-monitor .unstable   { background-color:#f1c40f; }
+.build-monitor .failing    { background-color:#e74c3c; }
+
+.build-monitor footer {
+    display: none;
 }
