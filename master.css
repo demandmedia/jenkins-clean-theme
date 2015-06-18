@@ -7,7 +7,7 @@ body {
 }
 
 #header .logo {
-    background: url(img/cl-logo.png) no-repeat;
+    background: url(img/dm-logo.png) no-repeat;
     background-size: cover;
     background-size: 90%;
     background-position-y: center;
@@ -964,7 +964,7 @@ td.progress-bar-left {
 }
 
 .build-monitor header h1 {
-    content: url('img/cl-logo-full.png') no-repeat !important;
+    content: url('img/dm-logo-full.png') no-repeat !important;
 }
 
 .build-monitor ul#job-views .unknown > .progress {
